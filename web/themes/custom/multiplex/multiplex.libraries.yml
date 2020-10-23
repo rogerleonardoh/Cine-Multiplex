@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/multiplex.style.css: {}
+  js:
+    assets/js/multiplex.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

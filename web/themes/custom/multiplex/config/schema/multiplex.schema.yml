@@ -1,0 +1,5 @@
+# Schema for the configuration files of the multiplex theme.
+
+multiplex.settings:
+  type: theme_settings
+  label: 'multiplex settings'
