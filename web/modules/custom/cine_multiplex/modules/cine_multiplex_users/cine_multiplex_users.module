@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains cine_multiplex_users.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function cine_multiplex_users_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the cine_multiplex_users module.
+    case 'help.page.cine_multiplex_users':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Implements a module for the management of functionalities associated with users') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function cine_multiplex_users_theme() {
+  return [
+    'cine_multiplex_users' => [
+      'render element' => 'children',
+    ],
+  ];
+}
