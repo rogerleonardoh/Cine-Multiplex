@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains cine_multiplex.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function cine_multiplex_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the cine_multiplex module.
+    case 'help.page.cine_multiplex':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Multiplex Cinema modules') . '</p>';
+      return $output;
+
+    default:
+  }
+}

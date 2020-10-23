@@ -1,0 +1,5 @@
+name: 'Cine Múltiplex'
+type: module
+description: 'Multiplex Cinema modules'
+core: 8.x
+package: 'Cine Múltiplex'
