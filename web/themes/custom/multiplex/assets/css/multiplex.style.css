@@ -9574,3 +9574,418 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important;
 }
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../assets/fonts/BebasNeue-Regular.woff2") format("woff2"), url("../assets/fonts/BebasNeue-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bebas Kai";
+  src: url("../assets/fonts/BebasKai.woff2") format("woff2"), url("../assets/fonts/BebasKai.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Md BT";
+  src: url("../assets/fonts/FuturaBT-Medium.woff2") format("woff2"), url("../assets/fonts/FuturaBT-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura";
+  src: url("../assets/fonts/Futura-Bold.woff2") format("woff2"), url("../assets/fonts/Futura-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura MdCn BT";
+  src: url("../assets/fonts/FuturaBT-MediumCondensed.woff2") format("woff2"), url("../assets/fonts/FuturaBT-MediumCondensed.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura XBlkCnIt BT";
+  src: url("../assets/fonts/FuturaBT-ExtraBlackCondItalic.woff2") format("woff2"), url("../assets/fonts/FuturaBT-ExtraBlackCondItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Md BT";
+  src: url("../assets/fonts/FuturaBT-MediumItalic.woff2") format("woff2"), url("../assets/fonts/FuturaBT-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura";
+  src: url("../assets/fonts/Futura-Black-Bold.woff2") format("woff2"), url("../assets/fonts/Futura-Black-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Lt BT";
+  src: url("../assets/fonts/FuturaBT-LightItalic.woff2") format("woff2"), url("../assets/fonts/FuturaBT-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura XBlk BT";
+  src: url("../assets/fonts/FuturaBT-ExtraBlack.woff2") format("woff2"), url("../assets/fonts/FuturaBT-ExtraBlack.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura";
+  src: url("../assets/fonts/Futura-CondensedLight.woff2") format("woff2"), url("../assets/fonts/Futura-CondensedLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura";
+  src: url("../assets/fonts/Futura-Bold.woff2") format("woff2"), url("../assets/fonts/Futura-Bold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Md BT";
+  src: url("../assets/fonts/FuturaBT-BoldItalic.woff2") format("woff2"), url("../assets/fonts/FuturaBT-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura XBlk BT";
+  src: url("../assets/fonts/FuturaBT-ExtraBlack.woff2") format("woff2"), url("../assets/fonts/FuturaBT-ExtraBlack.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura LtCn BT";
+  src: url("../assets/fonts/FuturaBT-LightCondensed.woff2") format("woff2"), url("../assets/fonts/FuturaBT-LightCondensed.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Hv BT";
+  src: url("../assets/fonts/FuturaBT-Heavy.woff2") format("woff2"), url("../assets/fonts/FuturaBT-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura BdCn BT";
+  src: url("../assets/fonts/FuturaBT-BoldCondensed.woff2") format("woff2"), url("../assets/fonts/FuturaBT-BoldCondensed.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Lt BT";
+  src: url("../assets/fonts/FuturaBT-Light.woff2") format("woff2"), url("../assets/fonts/FuturaBT-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Hv BT";
+  src: url("../assets/fonts/FuturaBT-HeavyItalic.woff2") format("woff2"), url("../assets/fonts/FuturaBT-HeavyItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Bk BT";
+  src: url("../assets/fonts/FuturaBT-BookItalic.woff2") format("woff2"), url("../assets/fonts/FuturaBT-BookItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Bk BT";
+  src: url("../assets/fonts/FuturaBT-Book.woff2") format("woff2"), url("../assets/fonts/FuturaBT-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura BdCn BT";
+  src: url("../assets/fonts/FuturaBT-BoldCondensedItalic.woff2") format("woff2"), url("../assets/fonts/FuturaBT-BoldCondensedItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura BdCn BT";
+  src: url("../assets/fonts/FuturaBT-BoldCondensed.woff2") format("woff2"), url("../assets/fonts/FuturaBT-BoldCondensed.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura BdCn BT";
+  src: url("../assets/fonts/FuturaBT-BoldCondensedItalic.woff2") format("woff2"), url("../assets/fonts/FuturaBT-BoldCondensedItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura MdCn BT";
+  src: url("../assets/fonts/FuturaBT-MediumCondensed.woff2") format("woff2"), url("../assets/fonts/FuturaBT-MediumCondensed.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura MdCn BT";
+  src: url("../assets/fonts/FuturaMdCn-Italic.woff2") format("woff2"), url("../assets/fonts/FuturaMdCn-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura MdCn BT";
+  src: url("../assets/fonts/FuturaMdCnBTItalic.woff2") format("woff2"), url("../assets/fonts/FuturaMdCnBTItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+.page__footer {
+  background: #dbdad9;
+  color: #080847;
+  font-size: 0.75rem;
+}
+.page__footer > .container .block {
+  flex: 1;
+  margin: 1rem 0;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.page__footer > .container .block h2 {
+  font-family: "Futura BdCn BT";
+  font-size: 1rem;
+  display: block;
+  padding: 0.5rem 0;
+  margin: 0 0 0.5rem 0;
+}
+.page__footer > .container .block p {
+  margin-bottom: 0;
+}
+.page__footer > .container .block > ul.nav {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.page__footer > .container .block > ul.nav .nav-link {
+  display: block;
+  padding: 0.05rem 0;
+}
+.page__footer p, .page__footer a, .page__footer a:hover, .page__footer a:visited {
+  color: #080847;
+}
+.page__footer a:hover {
+  text-decoration: underline;
+}
+.page__footer .footer_copyright {
+  background: #080847;
+  font-family: "Futura MdCn BT";
+}
+.page__footer .footer_copyright p {
+  color: #fff;
+  margin: 0;
+}
+.page__footer img {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .page__footer img {
+    width: auto;
+  }
+}
+@media (min-width: 992px) {
+  .page__footer img {
+    width: 230px;
+  }
+}
+
+.navbar {
+  background: #080847;
+  color: #fff;
+}
+.navbar a, .navbar a:hover, .navbar a:visited {
+  color: #fff;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.navbar .form-inline .form-actions {
+  display: none;
+}
+.navbar .container {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+@media (min-width: 992px) {
+  .navbar .container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+.navbar .navbar-toggler {
+  outline: none !important;
+}
+.navbar .navbar-collapse {
+  justify-content: flex-end !important;
+}
+.navbar .navbar-collapse .mr-auto {
+  margin-right: initial !important;
+  padding-right: 1rem;
+}
+.navbar .navbar-collapse .block--multiplex-main-menu {
+  font-family: "Futura";
+}
+.navbar .navbar-collapse .block--multiplex-main-menu ul {
+  margin-top: 0.5rem;
+}
+@media (min-width: 992px) {
+  .navbar .navbar-collapse .block--multiplex-main-menu ul {
+    margin-top: 0;
+  }
+}
+.navbar .navbar-collapse .block--multiplex-main-menu ul li {
+  border-top: #fff solid 1px;
+  padding: 0.5rem 0;
+}
+@media (min-width: 992px) {
+  .navbar .navbar-collapse .block--multiplex-main-menu ul li {
+    border-top: none;
+    padding: 0 1rem;
+  }
+}
+.navbar .navbar-collapse .block--multiplex-main-menu ul li .nav-link {
+  padding: 0 0.625rem;
+  color: #fff;
+}
+.navbar .navbar-collapse .block--multiplex-account-menu {
+  font-family: "Bebas Kai";
+  text-transform: uppercase;
+}
+@media (min-width: 992px) {
+  .navbar .navbar-collapse .block--multiplex-account-menu {
+    padding-left: 1rem;
+    border-left: #fff solid 1px;
+  }
+}
+.navbar .navbar-collapse .block--multiplex-account-menu ul {
+  flex-direction: column !important;
+  border-top: #fff solid 1px;
+  margin-top: 0.5rem;
+}
+@media (min-width: 992px) {
+  .navbar .navbar-collapse .block--multiplex-account-menu ul {
+    margin-top: 0;
+    border-top: none;
+  }
+}
+.navbar .navbar-collapse .block--multiplex-account-menu ul .nav-link {
+  padding: 0.2rem 0.688rem;
+  color: #fff;
+}
+.navbar .navbar-collapse .block--multiplex-account-menu ul li:last-child {
+  font-size: 0.75rem;
+}
+.navbar .navbar-collapse .block--multiplex-account-menu ul li:last-child .nav-link {
+  margin-top: -10px;
+}
+.navbar .navbar-collapse .block--multiplex-account-menu ul li:first-child {
+  font-size: 1rem;
+}
+.navbar .navbar-collapse .block--multiplex-account-menu ul li:first-child .nav-link {
+  margin-top: inherit;
+}
+
+.navbar.secondary {
+  background: transparent;
+  color: #fff;
+}
+.navbar.secondary > .container .block {
+  flex: 1;
+}
+.navbar.secondary .secondary {
+  border-top: #606060 solid 1px;
+  border-bottom: #606060 solid 1px;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .navbar.secondary .secondary {
+    width: auto;
+  }
+}
+@media (min-width: 992px) {
+  .navbar.secondary .secondary {
+    border-top: none;
+    border-bottom: none;
+  }
+}
+.navbar.secondary .secondary .block--menusecundario ul.nav {
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+.navbar.secondary .secondary .block--menusecundario ul.nav a, .navbar.secondary .secondary .block--menusecundario ul.nav a:hover, .navbar.secondary .secondary .block--menusecundario ul.nav a:visited {
+  color: #606060;
+  padding: 0 1rem;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 1.25rem;
+  letter-spacing: 0.05rem;
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .navbar.secondary .secondary .block--menusecundario ul.nav {
+    flex-direction: row !important;
+  }
+}
+.navbar.secondary .block--multiplex-branding img {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .navbar.secondary .block--multiplex-branding img {
+    width: auto;
+  }
+}
+@media (min-width: 992px) {
+  .navbar.secondary .block--multiplex-branding img {
+    width: 230px;
+  }
+}
+
+.toolbar-oriented .toolbar-bar {
+  z-index: 1200;
+}
+
+.toolbar-horizontal .toolbar-menu.nav {
+  float: left;
+}
+
+html, body {
+  background: #080847;
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: "Futura";
+}
+html .page, body .page {
+  background: #fff url(/themes/custom/multiplex/assets/images/background.png) repeat fixed;
+}

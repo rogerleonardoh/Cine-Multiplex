@@ -8,13 +8,16 @@ type: theme
 base theme: radix
 
 regions:
-  navbar_branding: Navbar branding
+  navbar_social: Navbar social
   navbar_left:  Navbar left
   navbar_right: Navbar right
+  navbar_branding: Navbar branding
+  navbar_secondary: Navbar secondary
   header: Header
   content: Content
   page_bottom: Page bottom
   footer: Footer
+  footer_copyright: Footer copyright
 
 libraries:
   - radix/style

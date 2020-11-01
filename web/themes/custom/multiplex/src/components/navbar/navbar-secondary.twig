@@ -1,0 +1,30 @@
+{#
+/**
+ * @file
+ * Template for Navbar component.
+ *
+ * Available config:
+ * - container: fixed | fluid.
+ * - placement: default | fixed-top | fixed-bottom | sticky-top
+ * - color: light | dark
+ * - utility_classes: An array of utility classes.
+ *
+ * Available blocks:
+ * - branding
+ *   secondary
+ */
+#}
+{{ attach_library('multiplex/navbar') }}
+
+<nav class="navbar secondary {{ placement }} py-3">
+  <div class="container d-flex flex-column flex-lg-row justify-content-lg-between">
+    {% block branding %}
+      {{ branding }}
+    {% endblock %}
+    <div class="secondary d-flex justify-content-center justify-content-lg-end my-3 py-3 my-lg-0 py-lg-0">
+      {% block secondary %}
+        {{ secondary }}
+      {% endblock %}
+    </div>
+  </div>
+</nav>
