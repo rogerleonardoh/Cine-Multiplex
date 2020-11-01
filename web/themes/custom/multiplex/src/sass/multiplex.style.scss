@@ -52,9 +52,22 @@
 // Component
 // -----------------------------------------------------------------------------
 @import "../components/node/node";
+@import "../components/navbar/navbar";
 
 // Other
 // -----------------------------------------------------------------------------
 @import "block/block";
 @import "content/node.page";
 @import "content/node.article";
+
+html, body {
+  background: #080847;
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: 'Futura';
+
+  .page {
+    background: #fff url(/themes/custom/multiplex/assets/images/background.png) repeat fixed;
+  }
+}
+
