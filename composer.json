@@ -23,8 +23,13 @@
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/devel": "^4.0",
+        "drupal/devel_entity_updates": "^3.0",
         "drupal/eu_cookie_compliance": "^1.13",
+        "drupal/page_manager": "^4.0@beta",
+        "drupal/page_manager_ui": "^4.0@beta",
+        "drupal/panels": "^4.6",
         "drupal/radix": "^4.10",
+        "drupal/radix_layouts": "^4.1",
         "drupal/restui": "^1.18"
     },
     "conflict": {
