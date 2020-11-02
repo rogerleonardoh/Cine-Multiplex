@@ -1,0 +1,30 @@
+cine_multiplex.settings:
+  title: 'Cine Múltiple'
+  route_name: cine_multiplex.settings
+  description: 'Administración Cine Múltiplex'
+  parent: system.admin_config
+  weight: -99
+
+cine_multiplex.settings.config:
+  title: 'Configuración'
+  route_name: cine_multiplex.settings.config
+  description: 'Configuración de Cine Múltiplex'
+  parent: cine_multiplex.settings
+
+cine_multiplex.settings.entities:
+  title: 'Entidades'
+  route_name: cine_multiplex.settings.entities
+  description: 'Configuración de entidades para Cine Múltiple'
+  parent: cine_multiplex.settings
+
+cine_multiplex.settings.entities.config:
+  title: 'Entidades de configuración'
+  route_name: cine_multiplex.settings.entities.config
+  description: 'Configuración de entidades de configuración'
+  parent: cine_multiplex.settings.entities
+
+cine_multiplex.settings.entities.content:
+  title: 'Entidadesde contenido'
+  route_name: cine_multiplex.settings.entities.content
+  description: 'Configuración de entidades de contenido'
+  parent: cine_multiplex.settings.entities
