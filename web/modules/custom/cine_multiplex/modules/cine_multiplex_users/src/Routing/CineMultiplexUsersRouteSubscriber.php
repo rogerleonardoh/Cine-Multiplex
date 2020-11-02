@@ -8,9 +8,9 @@ use Symfony\Component\Routing\RouteCollection;
 /**
  * Listens to the dynamic route events.
  *
- * Class OneappTfaRouteSubscriber.
+ * Class CineMultiplexUsersRouteSubscriber.
  *
- * @package Drupal\oneapp_tfa\Routing
+ * @package Drupal\cine_multiplex_users\Routing
  */
 class CineMultiplexUsersRouteSubscriber extends RouteSubscriberBase {
 
@@ -23,12 +23,12 @@ class CineMultiplexUsersRouteSubscriber extends RouteSubscriberBase {
   public function alterRoutes(RouteCollection $collection) {
     if ($route = $collection->get('user.page')) {
       $route->setRequirement('_user_is_logged_in', 'FALSE');
-      $route->setDefault('_controller', '\Drupal\oneapp_tfa\Controller\UserEditController::userPage');
+      $route->setDefault('_controller', '\Drupal\cine_multiplex_users\Controller\UserRedirectController::userPage');
     }
     if ($route = $collection->get('entity.user.canonical')) {
-      $route->setDefault('_controller', '\Drupal\oneapp_tfa\Controller\UserEditController::userPage');
+      $route->setDefault('_controller', '\Drupal\cine_multiplex_users\Controller\UserRedirectController::userPage');
     }
-    // Change path of user login to our overridden TFA login form.
+
     if ($route = $collection->get('user.login')) {
       $route->setPath('/secure/login');
     }

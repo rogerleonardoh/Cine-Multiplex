@@ -1,13 +1,13 @@
 <?php
 
-namespace Drupal\oneapp_tfa\Controller;
+namespace Drupal\cine_multiplex_users\Controller;
 
 use Drupal\user\Controller\UserController;
 
 /**
  * Controller routines for user routes.
  */
-class UserEditController extends UserController {
+class UserRedirectController extends UserController {
 
   /**
    * Redirects users to the front page.

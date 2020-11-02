@@ -8,7 +8,6 @@ use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\ServerException;
 use GuzzleHttp\Exception\ConnectException;
 use Alchemy\Zippy\Exception\RuntimeException;
-use Drupal\Core\Messenger\MessengerInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use GuzzleHttp\Exception\TooManyRedirectsException;
 use Drupal\cine_multiplex_services\Services\AesEncryptService;
@@ -66,6 +65,13 @@ class Manager implements ManagerInterface {
    * @var array
    */
   protected $body = [];
+
+  /**
+   * Representation of an outgoing, server-side response.
+   *
+   * @var ResponseInterface
+   */
+  protected $response;
 
   /**
    * ApiHandler constructor.
