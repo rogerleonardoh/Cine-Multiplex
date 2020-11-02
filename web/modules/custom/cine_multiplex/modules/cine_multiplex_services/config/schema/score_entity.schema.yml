@@ -1,0 +1,24 @@
+cine_multiplex_services.score_entity.*:
+  type: config_entity
+  label: 'Score Service config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Service'
+    endpoint:
+      type: string
+      label: 'Endpoint'
+    method:
+      type: sequence
+      label: 'Supported methods'
+      sequence:
+        type: string
+        label: 'HTTP method'
+    aesEncryption:
+      type: boolean
+      label: 'Aes encryption'
+    uuid:
+      type: string

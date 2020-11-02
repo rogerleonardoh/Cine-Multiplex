@@ -1,0 +1,39 @@
+cine_multiplex.settings:
+  path: '/admin/config/cine-multiplex'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Administración Cine múltiplex'
+  requirements:
+    _permission: 'access administration pages'
+
+cine_multiplex.settings.config:
+  path: '/admin/config/cine-multiplex/config'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Configuración de Cine Múltiplex'
+  requirements:
+    _permission: 'access administration pages'
+
+cine_multiplex.settings.entities:
+  path: '/admin/config/cine-multiplex/entities'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Entidades Cine Múltiple'
+  requirements:
+    _permission: 'access administration pages'
+
+cine_multiplex.settings.entities.config:
+  path: '/admin/config/cine-multiplex/entities/config'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Entidades de configuración Cine Múltiple'
+  requirements:
+    _permission: 'access administration pages'
+
+cine_multiplex.settings.entities.content:
+  path: '/admin/config/cine-multiplex/entities/content'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Entidades de contenido Cine Múltiple'
+  requirements:
+    _permission: 'access administration pages'

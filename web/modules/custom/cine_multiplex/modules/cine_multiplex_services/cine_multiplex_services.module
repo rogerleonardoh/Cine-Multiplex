@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains cine_multiplex_services.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function cine_multiplex_services_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the cine_multiplex_services module.
+    case 'help.page.cine_multiplex_services':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Implement functionalities for consumption of score services') . '</p>';
+      return $output;
+
+    default:
+  }
+}

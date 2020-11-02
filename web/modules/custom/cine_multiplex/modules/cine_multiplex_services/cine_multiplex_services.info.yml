@@ -1,0 +1,8 @@
+name: 'Cine Múltiplex - Services'
+type: module
+description: 'Implement functionalities for consumption of score services'
+core: 8.x
+package: 'Cine Múltiplex'
+dependencies:
+  - cine_multiplex
+  - rest

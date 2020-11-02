@@ -1,0 +1,7 @@
+name: 'Cine Múltiplex - Users'
+type: module
+description: 'Implements a module for the management of functionalities associated with users'
+core: 8.x
+package: 'Cine Múltiplex'
+dependencies:
+  - cine_multiplex
