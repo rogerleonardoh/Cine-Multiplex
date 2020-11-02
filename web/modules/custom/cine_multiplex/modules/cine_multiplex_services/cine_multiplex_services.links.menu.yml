@@ -1,0 +1,14 @@
+
+# Score Service menu items definition
+cine_multiplex.score_entity.collection:
+  title: 'Servicios score'
+  route_name: entity.score_entity.collection
+  description: 'List Score Service (bundles)'
+  parent: cine_multiplex.settings.entities.config
+  weight: 99
+
+cine_multiplex_services.settings.config.score:
+  title: 'Configuración sercicios score'
+  route_name: cine_multiplex_services.settings.score
+  description: 'Configuración sercicios score'
+  parent: cine_multiplex.settings.config

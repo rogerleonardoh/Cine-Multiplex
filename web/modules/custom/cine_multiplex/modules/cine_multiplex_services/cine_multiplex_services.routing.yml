@@ -1,0 +1,7 @@
+cine_multiplex_services.settings.score:
+  path: '/admin/config/cine-multiplex/config/score'
+  defaults:
+    _form: '\Drupal\cine_multiplex_services\Form\ScoreSettingsForm'
+    _title: 'Configuración sercicios score'
+  requirements:
+    _permission: 'access administration pages'

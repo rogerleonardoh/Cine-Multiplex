@@ -1,0 +1,7 @@
+services:
+  cine_multiplex_services.aes:
+    class: Drupal\cine_multiplex_services\Services\AesEncryptService
+  cine_multiplex_services.manager:
+    class: Drupal\cine_multiplex_services\Services\Manager
+    arguments: ['@entity_type.manager', '@http_client', '@cine_multiplex_services.aes']
+

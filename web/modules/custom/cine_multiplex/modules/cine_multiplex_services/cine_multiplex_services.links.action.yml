@@ -1,0 +1,5 @@
+entity.score_entity.add_form:
+  route_name: entity.score_entity.add_form
+  title: 'Add Score Service'
+  appears_on:
+    - entity.score_entity.collection
