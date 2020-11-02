@@ -1,0 +1,5 @@
+services:
+  cine_multiplex_users.route_subscriber:
+    class: Drupal\cine_multiplex_users\Routing\CineMultiplexUsersRouteSubscriber
+    tags:
+      - { name: event_subscriber }

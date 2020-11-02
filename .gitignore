@@ -57,3 +57,5 @@
 
 # Ignore .env files as they are personal
 /.vscode
+
+web/modules/custom/cine_multiplex/README.txt

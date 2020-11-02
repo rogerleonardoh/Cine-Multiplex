@@ -17,8 +17,6 @@ interface ManagerInterface {
    *
    * @return \Drupal\cine_multiplex_services\Services\ManagerInterface
    *   Manager interface.
-   *
-   * @throws \Drupal\oneapp\Exception\InternalServerErrorHttpException
    */
   public function load($id);
 
